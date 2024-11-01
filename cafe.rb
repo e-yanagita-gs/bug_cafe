@@ -34,5 +34,5 @@ order2 = take_order(FOODS)
 
 #binding.break
 
-total = FOODS[order2][:price].to_i + DRINKS[order1][:price].to_i
+total = DRINKS[order1][:price].to_i + FOODS[order2][:price].to_i
 puts "お会計は#{total}円になります。ありがとうございました！"
